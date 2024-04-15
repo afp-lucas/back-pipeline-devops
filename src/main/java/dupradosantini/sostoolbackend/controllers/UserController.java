@@ -49,5 +49,11 @@ public class UserController {
         var users = this.userService.findCurrentWorkspaceUsers(workspaceId);
         return ResponseEntity.ok().body(users);
     }
+
+    @PutMapping("/{userId}/update-email")
+    public ResponseEntity<AppUser> updateUserEmail(@PathVariable Integer userId, @RequestBody AppUser obj){
+        AppUser AppUserUpdated = userService.updateUser(obj);
+        return ResponseEntity.ok().body(AppUserUpdated);
+    }
 }
 

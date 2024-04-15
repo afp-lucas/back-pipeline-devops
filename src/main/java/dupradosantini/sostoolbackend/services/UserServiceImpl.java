@@ -95,4 +95,9 @@ public class UserServiceImpl implements UserService{
     public WorkspaceMember saveWorkspaceMember(WorkspaceMember workspaceMember){
         return this.workspaceMemberRepository.save(workspaceMember);
     }
+
+    @Override
+    public AppUser updateUser(AppUser appUserObj){
+        return this.userRepository.save(appUserObj);
+    }
 }

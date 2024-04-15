@@ -17,4 +17,6 @@ public interface UserService {
     List<RoleHistoryDto> findUserRoleHistory(Integer userId);
 
     Set<AppUser> findCurrentWorkspaceUsers(Integer workspaceId);
+
+    AppUser updateUser(AppUser appUserObj);
 }
