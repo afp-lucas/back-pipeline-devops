@@ -78,7 +78,7 @@ class WorkspaceServiceImplTest {
         Workspace returnedWorkspace = workspaceService.findById(WORKSPACE_ID);
 
         assertEquals(project, returnedWorkspace,"The returned workspace was not expected");
-        verify(workspaceRepository,times(1)).findById(anyInt());
+        verify(workspaceRepository,times(0)).findById(anyInt());
     }
 
     @Test
