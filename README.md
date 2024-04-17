@@ -1,5 +1,5 @@
 
-# pipeline-devops - Sostools Backend
+# Pipeline-devops - Sostools Backend
 Projeto feito para a matéria de Gerência de Configuração, Manutenção e Evolução de Software do curso de Sistemas de Informação na USP.
 
 A tecnologia utilizada no backend é o
@@ -49,7 +49,7 @@ No projeto foi criada uma pipeline para rodar no workflow do github actions uma 
 
 ***
 ## Colaboradores (Grupo 05)
-*  ngela Patrícia Mestas Muñante
+* Angela Patrícia Mestas Muñante
 * Bruna Pereira Serrano da Mata
 * Italo de Matos Saldanha
 * Lucas Pereira Franco de Almeida
